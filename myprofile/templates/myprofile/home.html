@@ -1,0 +1,471 @@
+{% extends "myprofile/base.html" %}
+{% block content %}
+ 
+
+    
+        <!--================ Start Home Banner Area =================-->
+        <section class="home_banner_area" id="home" ">
+            <div class="banner_inner"  >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7" >
+                            <div class="banner_content" data-aos="fade-right">
+                               
+                                <h3 class="text-uppercase">नमस्ते🙏🏻</h3>
+                                <h1 class="text-uppercase">I'm Abhishek!</h1>
+                                <h5 class="text-uppercase">Passionate Python and Web developer👨🏻‍💻</h5>
+                                <div class="d-flex align-items-center">
+                                    {% load static %}
+                                    <a class="primary_btn tr-bg" href="#Contact"><span>Contact me</span></a>
+                                    <a class="primary_btn tr-bg" href="{% static 'myprofile/img/Abhishek_Choudhury_Resume.pdf' %}"><span>See my Resume</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5" data-aos="fade-left">
+                            <div class="home_right_img">
+                                <img class="dp" src="{% static 'myprofile/img/banner/banner.png' %}"  ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ End Home Banner Area =================-->
+    
+        <!--================ Start About Us Area =================-->
+        <section class="about_area section_gap" id="About">
+            <div class="container">
+                <div class="row justify-content-start align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about_img" data-aos="flip-up">
+                            <img class="dp" src="{% static 'myprofile/img/dp.jpg' %}">
+                        </div>
+                    </div>
+                   <!--  about-us.png -->
+                    <div class="offset-lg-1 col-lg-5">
+                        <div class="main_title text-left" data-aos="fade-up">
+                            <h2>let’s <br>
+                                Introduce myself <br>
+                                </h2>
+                            <p>
+                                I'm a Full Stack Developer👨‍💻 having an experience of building Web apps & Data Analysis tools. I also love Machine Learning and Data Visualization. 
+                                Apart from technology , I love travel and adventure!
+                            </p>
+                            <p>
+                                I spend most of the time working on a project or self learning someting new on Youtube. 
+                                With the help of technology I want to help other people grow and make their life easy😊
+                            </p>
+                            
+                        
+                            <a class="primary_btn" href="{% static 'myprofile/img/Abhishek_Choudhury_Resume.pdf' %}" download="resume" target="_blank" "><span>Download Resume</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ End About Us Area =================-->
+    
+        <!--================ Srart Brand Area =================-->
+        <section class="brand_area section_gap_bottom" id="Skills">
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-in-up">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png" alt="">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="">
+                                    
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="">
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!---My new -->
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="single-brand-item d-table">
+                                    <div class="d-table-cell text-center">
+                                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end -->
+    
+                        </div>
+                    </div>
+                    
+                  
+                    <div class="offset-lg-2 col-lg-4 col-md-6" >
+                        
+                        <div class="client-info" >
+                           
+                            <div class="d-flex mb-4" data-aos="zoom-out-up">
+                                
+                                <span class="lage">3+</span>
+                                <span class="lage">Yrs</span>
+                            </div>
+                            <div class="call-now d-flex">
+                                <div>
+                                    <span class="fa fa-laptop"><h5>Working with the tools, learning concepts and techniques</h5></span>
+                                    
+                                </div>
+                                <div class="ml-15">
+                                    
+                                    
+                                    <h6></h6>
+    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ End Brand Area =================-->
+    
+        <section class="features_area" id="experience">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 text-center" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="main_title">
+                            <h2>Work Experience</h2>
+                            <br>
+                            <div class="card-group">
+                                <div class="card">
+                                  <img src="https://www.underconsideration.com/brandnew/archives/sears_2019_logo.png" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Sears Holdings, Pune</h5>
+                                    <p class="card-text">Served about 9 months as a Data Engineer Intern in the respective firm. It got my skills and work ethics on point.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated few months ago</small></p>
+                                  </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <!--================ Start Features Area =================-->
+        <section class="features_area">
+            <div class="container" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <div class="main_title" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                            <h2>Skills Aquired</h2>
+                            <p>
+                                In due years I have gained a lot of perspective. The experiences I had and the exposore I got is tremendous.
+                                <br> and  this is only possible due to the Internet. The coding community is extremely helpful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row feature_inner" data-aos="flip-up">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature_item">
+                            <img src="{% static 'myprofile/img/services/s1.png' %}" alt="">
+                            <h4>Web Development</h4>
+                            <p>Through the years the Web technology has changed a lot. Keeping up with that
+                                is important.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature_item">
+                            <img src="{% static 'myprofile/img/services/s2.png' %}" alt="">
+                            <h4>UI/UX Design</h4>
+                            <p>Keeping the UI interactive and simple is the major criteria to keep the users stick to the page. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature_item">
+                            <img src="{% static 'myprofile/img/services/s3.png' %}" alt="">
+                            <h4>Data Structure and Algo.</h4>
+                            <p>Whatever may be the technology, the root will always be the same.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature_item">
+                            <img src="{% static 'myprofile/img/services/s4.png' %}" alt="">
+                            <h4>Optimization and Self Analyis</h4>
+                            <p>With different stages we should self analyse and keep the Optimization top notch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ End Features Area =================-->
+    
+    <!--================Start Portfolio Area =================-->
+    <section class="portfolio_area" id="portfolio" >
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_title text-left">
+                        <h2>Projects<br>
+                            </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="filters portfolio-filter">
+                <ul>
+                    <li class="active" data-filter="*">all</li>
+                    <li data-filter=".popular">popular</li>
+                    <li data-filter=".upcoming">upcoming</li>
+                    <li data-filter=".latest"> latest</li>
+                </ul>
+            </div>
+    
+            <div class="filters-content">
+                <div class="row portfolio-grid justify-content-center">
+                    <div class="col-lg-4 col-md-6 all popular">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/braniacpic.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/braniacpic.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="https://github.com/yesabhishek/Braniac">Braniac</a></h4>
+                                <p>Gaming Website</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all upcoming latest">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/ReConn.jpg' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/ReConn.jpg' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="{% url 'noPage' %}">Re-Connect</a></h4>
+                                <p>Social Networking Site</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all latest">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/Vote.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/Vote.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="https://github.com/yesabhishek/VotesApp">VotesApp</a></h4>
+                                <p>User Authenticated Voting Portal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all popular">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/Icomm.jpg' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/Icomm.jpg' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="{% url 'noPage' %}">ITER Community</a></h4>
+                                <p>Social guide and community, 3rd Yr. HCI Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all ">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/tcil.png' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/tcil.png' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="https://github.com/yesabhishek/TCIL-CRS">TCIL CRS</a></h4>
+                                <p>Complaint Registration Portal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all popular latest">
+                        <div class="portfolio_box">
+                            <div class="single_portfolio">
+                                <img class="img-fluid w-100" src="{% static 'myprofile/img/To-do.jpg' %}" alt="">
+                                <div class="overlay"></div>
+                                <a href="{% static 'myprofile/img/To-do.jpg' %}" class="img-gal">
+                                    <div class="icon">
+                                        <span class="lnr lnr-cross"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="short_info">
+                                <h4><a href="https://organizer-8c062.web.app/">Slick List</a></h4>
+                                <p>To-Do List for personal use</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 all upcoming following">
+                       
+                    </div>
+                    <div class="col-lg-4 col-md-6 all following">
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 all upcoming">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Portfolio Area =================-->
+        <div class="testimonial_area section_gap_bottom" id="github">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <div class="main_title" data-aos="flip-up">
+                            <h2>More Projects</h2>
+                            <p>I have worked on other projects as well. You can see them at my Github Repository linked below. </p>
+                                 <br>
+                            <a class="primary_btn tr-bg" href="https://github.com/yesabhishek"><span>Join⚡</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--================Contact Area =================-->
+    <section class="contact_area" id="Contact">
+        <div class="container" data-aos="fade-up">
+            <div class="main_title text-center" >
+                <h2>Contact Me<br>
+                    </h2>
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-3">
+
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>Jharkhand, India</h6>
+                            <p>Parsudih, Jamshedpur</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6>(+91) 790 371 7967</h6>
+                            <p>Mon to Fri 9am to 6 pm</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6>choudhuryabhishek76@gmail.com</h6>
+                            <p>Send me your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    
+                </div>
+            </div>
+            <div id="mapBox" class="mapBox container text-center" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29435.40015897513!2d86.19875133062894!3d22.749603095871347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5fd2f589a63a9%3A0xf55d1f298ab21a56!2sParsudih%2C%20Jamshedpur%2C%20Jharkhand%20831002!5e0!3m2!1sen!2sin!4v1597838815856!5m2!1sen!2sin" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        
+    </section>
+     <!--================Contact Area =================-->
+
+
+   
+    
+{% endblock %}
+    
