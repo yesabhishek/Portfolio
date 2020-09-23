@@ -14,7 +14,7 @@ body {
   scroll-behavior: smooth;
   line-height: 26px;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #777777;
   background: url(../img/body-bg.png) no-repeat center; }
@@ -254,6 +254,14 @@ button:focus {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.logofont{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 36px;
+  background-color: white;
+  border-radius: 2%;
+  
+}
+
 .header_area {
   position: absolute;
   width: 100%;

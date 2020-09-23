@@ -1,138 +1,197 @@
-
-
 <html lang="en">
-    <head>
-    
-            <!-- Bootstrap CSS -->
-            {% load static %}
-            <link rel="stylesheet" href="{% static 'myprofile/css/bootstrap.css' %}">
-            <link rel="stylesheet" href="{% static 'myprofile/vendors/linericon/style.css' %}">
-            <link rel="stylesheet" href="{% static 'myprofile/css/font-awesome.min.css' %}">
-            <link rel="stylesheet" href="{% static 'myprofile/vendors/owl-carousel/owl.carousel.min.css' %}">
-            <link rel="stylesheet" href="{% static 'myprofile/css/magnific-popup.css' %}">
-            <link rel="stylesheet" href="{% static 'myprofile/vendors/nice-select/css/nice-select.css' %}">
-            <!-- main css -->
-            <link rel="stylesheet" href="{% static 'myprofile/css/style.css' %}">
-            <!-- Required meta tags -->
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <!-- Favicon icons below --> 
-            <link rel="apple-touch-icon" sizes="180x180" href="{% static 'myprofile/img/apple-touch-icon.png' %}">
-            <link rel="icon" type="image/png" sizes="32x32" href="{% static 'myprofile/img/favicon-32x32.png' %}">
-            <link rel="icon" type="image/png" sizes="16x16" href="{% static 'myprofile/img/favicon-16x16.png' %}">
-        <title> yesabhishek</title>
-    </head>
-    <body>
-
+  <head>
+    <!-- Bootstrap CSS -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myprofile/css/bootstrap.css' %}" />
+    <link
+      rel="stylesheet"
+      href="{% static 'myprofile/vendors/linericon/style.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'myprofile/css/font-awesome.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'myprofile/vendors/owl-carousel/owl.carousel.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'myprofile/css/magnific-popup.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'myprofile/vendors/nice-select/css/nice-select.css' %}"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="{% static 'myprofile/css/styles.css' %}" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon icons below -->
+    <!-- Favicon icons below -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{% static 'myprofile/img/apple-touch-icon.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{% static 'myprofile/img/favicon-32x32.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{% static 'myprofile/img/favicon-16x16.png' %}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>yesabhishek</title>
+  </head>
+  <body>
     <!--================ Start Header Area =================-->
     <header class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="{% url 'home' %}"><img src="{% static 'myprofile/img/logo.png' %}"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav justify-content-end">
-                            <li class="nav-item active"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<!-- News jumbotron -->
-<div class="jumbotron text-center hoverable p-4">
-
-    <!-- Grid row -->
-    <div class="row">
-  
-      <!-- Grid column -->
-      <div class="col-md-3 offset-md-1 mx-3 my-3">
-  
-        <!-- Featured image -->
-        <div class="view overlay">
-          <img src="https://source.unsplash.com/collection/4676376/800x600" class="img-fluid">
-          <a>
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-  
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-3 text-md-left ml-3 mt-3">
-  
-        <!-- Excerpt -->
-        <a href="#!" class="green-text">
-          <h6 class="h6 pb-1"><i class="fa fa-desktop pr-1"></i> Work</h6>
-        </a>
-  
-        <h4 class="h4 mb-4">Sorry, {{ f_name }}</h4>
-  
-        <p class="font-weight-normal">The requested page is under developement, Please visit us in a few days😄</p>
-        <p class="font-weight-normal">by <a><strong>Abhishek Choudhury</strong></a>, 15/08/2020</p>
-  
-        <a class="primary_btn tr-bg" href="{% url 'home' %}"><span>Home</span></a>
-  
-      </div>
-      <!-- Grid column -->
-  
-    </div>
-    <!-- Grid row -->
-  
-  </div>
-  <div id="loading"></div>
-  <!-- News jumbotron -->
- <!--================Footer Area =================-->
- <footer class="footer_area">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="footer_top flex-column">
-                    <div class="footer_logo">
-                        <a href="{% url 'home' %}">
-                            <img src="{% static 'myprofile/img/logo.png' %}" alt="">
-                        </a>
-                        <h4>Follow Me</h4>
-                    </div>
-                    <div class="footer_social">
-                        <a href="https://twitter.com/yasabhishek"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/yesabhishek"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/yesabhishek/"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/yesabhishek"><i class="fa fa-github"></i></a>
-                    </div>
-                </div>
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h logofont" href="{% url 'home' %}"
+              >yasabhishek</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{% url 'home' %}">Home</a>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-3 offset-md-1 mx-3 my-3">
+          <!-- Featured image -->
+          <div class="view overlay">
+            <img
+              src="https://source.unsplash.com/collection/4676376/800x600"
+              class="img-fluid"
+            />
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 text-md-left ml-3 mt-3">
+          <!-- Excerpt -->
+          <a href="#!" class="green-text">
+            <h6 class="h6 pb-1"><i class="fa fa-desktop pr-1"></i> Work</h6>
+          </a>
+
+          <h4 class="h4 mb-4">Sorry, {{ f_name }}</h4>
+
+          <p class="font-weight-normal">
+            The requested page is under developement, Please visit us in a few
+            days😄
+          </p>
+          <p class="font-weight-normal">
+            by <a><strong>Abhishek Choudhury</strong></a
+            >, 15/08/2020
+          </p>
+
+          <a class="primary_btn tr-bg" href="{% url 'home' %}"
+            ><span>Home</span></a
+          >
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <div id="loading"></div>
+    <!-- News jumbotron -->
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="footer_top flex-column">
+              <div class="footer_logo">
+                <a href="{% url 'home' %}">
+                  <img src="{% static 'myprofile/img/logo.png' %}" alt="" />
+                </a>
+                <h4>Follow Me</h4>
+              </div>
+              <div class="footer_social">
+                <a href="https://twitter.com/yasabhishek"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/yesabhishek"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/yesabhishek/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/yesabhishek"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="row footer_bottom justify-content-center">
-            <p class="col-lg-8 col-sm-12 footer-text">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Made with ❤ by Abhishek Choudhury, <br>Inspired by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <p class="col-lg-8 col-sm-12 footer-text">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Made with ❤ by Abhishek Choudhury, <br />Inspired by
+            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
         </div>
-    </div>
-</footer>   
+      </div>
+    </footer>
 
- <!--================End Footer Area =================-->
-    
+    <!--================End Footer Area =================-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
+
     <script src="{% static 'myprofile/js/jquery-3.2.1.min.js' %}"></script>
     <script src="{% static 'myprofile/js/popper.js' %}"></script>
     <script src="{% static 'myprofile/js/bootstrap.min.js' %}"></script>
@@ -145,12 +204,14 @@ Made with ❤ by Abhishek Choudhury, <br>Inspired by <a href="https://colorlib.c
 
     <!--gmaps Js-->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'OUR_GA_ID', {cookie_flags: 'SameSite=None;Secure'});
-        </script>
-    <script src="{% static 'myprofile/js/theme.js' %}"></script>   
-</body>
+      gtag("config", "OUR_GA_ID", { cookie_flags: "SameSite=None;Secure" });
+    </script>
+    <script src="{% static 'myprofile/js/theme.js' %}"></script>
+  </body>
 </html>
